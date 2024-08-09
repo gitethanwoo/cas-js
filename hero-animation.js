@@ -1,6 +1,6 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const text = document.querySelector('.animated-text');
+  const text = document.querySelector('#animated-text');
   const words = text.innerText.split(' ');
   text.innerHTML = '';
   
